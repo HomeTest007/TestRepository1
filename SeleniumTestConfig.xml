@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="JuliaSuite1" annotations="JDK" parallel="tests">
+         
+  <test name="DataManager">
+	 <classes>
+	   <class name="com.suite1.DataManager"/>
+	 </classes>
+   </test>
+   
+  <test name="Reports">
+     <classes>
+       <class name="com.suite2.MyReports"/>
+     </classes>
+   </test>
+</suite>
