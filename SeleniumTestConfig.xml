@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
 
-<suite thread-count="1" verbose="1" name="JuliaSuite1" annotations="JDK" parallel="tests">
+<suite thread-count="1" verbose="1" name="JuliaSuite1-BRANCH1" annotations="JDK" parallel="tests">
          
   <test name="DataManager">
 	 <classes>
