@@ -9,7 +9,7 @@
             addBehaviour( new myBehaviour( this ) );
         }
         
-        
+        //added comment number 3
         class myBehaviour extends SimpleBehaviour 
         {   
             public myBehaviour(Agent a) { 
